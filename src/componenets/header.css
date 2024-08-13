@@ -1,0 +1,255 @@
+/* header */
+
+#style-head{
+    background-color: #1c39bb;
+    background-image: url(./pattern4-high.svg);
+    background-size: 70%;
+    background-repeat: repeat;
+}
+
+.style-head-elem{
+    display: flex;
+    justify-content: space-around;
+    background-image: -webkit-linear-gradient(118deg, transparent 40%, #1c39bb 55%);
+    padding: 0% 5% 0% 5%;
+    box-sizing: border-box;
+    transition: all 2s;
+}
+
+.style-hed-h1{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0;
+    margin-top: 5%;
+}
+
+.style-hed-h1 span{
+    margin: 0px 3px;
+}
+
+.bold{
+    font-weight: 700 !important;
+}
+
+.style-new{
+    padding-left: 26%;
+    margin-top: -3.5%;
+}
+
+.style-hed-p1{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0% 23% 0% 0%;
+    margin-top: 5%;
+}
+
+.style-hed-p2{
+    margin-top: 3.7%;
+}
+
+.style-button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-trade{
+    margin-left: -68%;
+    margin-top: 19%;
+    position: relative;
+    z-index: 2;
+}
+
+.style-imgpart{
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-height: 822px;
+    min-height: 600px;
+}
+
+.style-triangle{
+    position: absolute;
+    display: flex;
+    margin-top: 22%;
+    margin-right: -28px;
+}
+
+.triangle-1{
+    margin: 0 auto;
+    transform: rotate(-90deg);
+    width: 350px;
+    height: 350px;
+    background-image: radial-gradient(ellipse at 100% 0, transparent 0, transparent 350px, #14161c 0);
+}
+
+.triangle-2{
+    width: 350px;
+    height: 350px;
+    background-image: radial-gradient(ellipse at 100% 0, transparent 0, transparent 350px, #14161c 0);
+}
+
+/* header part 2 */
+
+.style-head-elem2{
+    background-color: #14161c;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 2s;
+    padding-top: 80px;
+    padding: 6% 5% 0% 5%;
+}
+
+.style-title{
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0;
+    margin-bottom: 66px;
+}
+
+.style-boxes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.box{
+    font-size: 19px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 22px;
+    max-width: 325px;
+    width: auto;
+    transition: all 2s;
+    margin: 0 1%;
+}
+
+.predict{
+    width: 60px;
+}
+
+/* header part 3 */
+
+.style-head-elem3{
+    background-image: url(./pattern3-ltr.png);
+    background-color:#14161c;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 76%;
+    background-position-y: 1%;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.style-back{
+    background-position: 100% 0;
+    background-image:  -webkit-linear-gradient(transparent, #000);
+}
+
+.style-contanier{
+    padding-right: 5%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: all 2s;
+    padding-top: 80px;
+}
+
+.style-title2{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0;
+    margin-bottom: 40px;
+    margin-right: 37px;
+}
+
+.style-menu{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.style-menu-elem{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+    margin-bottom: 63px;
+}
+
+.partion{
+    padding-right: 48px;
+}
+
+.style-video{
+    width: 142%;
+}
+
+.style-video video{
+    width: 100%;
+}
+
+.style-hed-p3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0;
+    opacity: .6;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.style-p4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    opacity: .6;
+}
+
+.box2{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.box2-p1{
+    padding-right: 185px;
+}
+
+.box2-p2{
+  
+    margin:4% 2% 0% 3%;;
+}
